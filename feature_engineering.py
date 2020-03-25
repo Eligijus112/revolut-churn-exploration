@@ -110,7 +110,7 @@ class TransactionFeatures():
             last_n_txn=self.last_n_txn
             )).droplevel(1)        
 
-    def feature_engineering_pipeline(self) -> pd.DataFrame():
+    def feature_engineering_pipeline(self) -> pd.DataFrame:
         """
         A method that wraps every feature engineering step and outputs 
         a preprocesed data frame 

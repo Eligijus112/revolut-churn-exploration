@@ -13,9 +13,9 @@ def draw_barplot(
     sort_by_count=False,
     get_shares=False
     ) -> plt.plot:
-    '''
-    A method to draw a barplot given Revolut's data
-    '''
+    """
+    A generalized method to draw a barplot
+    """
 
     # Defining the figure margins
     plt.figure(figsize=figsize)
